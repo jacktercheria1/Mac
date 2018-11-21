@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<body>
+<!-- Content will go here -->
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+  <a href="#home" class="w3-button w3-bar-item">home</a>
+  <a href="#patagucci" class="w3-button w3-bar-item">patagucci</a>
+  <a href="#tour" class="w3-button w3-bar-item">tour</a>
+  <a href="#contact" class="w3-button w3-bar-item">contact</a>
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="quavo_.jpg" style="width:100%">
+  <img class="mySlides" src="takeoff_.jpg" style="width:100%">
+  <img class="mySlides" src="culture_2.jpg" style="width:100%">
+  <img class="mySlides" src="movie_.jpg" style="width:100%">
+</section>
+
+<!-- patagucci description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">patagucci x the migos</h2>
+  <p class="w3-opacity"><i>a jack tercheria creation</i></p>
+  <p class="w3-justify">We have created a totally new website for our biggest
+    clients, the Migos. What makes this rap group so special? What's their
+    plan now that they each own their own fashion line? Two months ago Quavo
+    and I happened to run into eachother at a Five Guys in LAX. While we were enjoying our burgers he told me about this
+    idea to turn his business into a website. Quavo knows that there is a lot of deception, and trickery
+    in this website business so that's why he came to me first. I told him I'd make a super dope website for his own clothing
+    line "patagucci" which won't be in stores for much longer. Another reason why I made this wesbite for Quavo is because I think
+    he has the most successful rap group of all time. The Migos are a very unique group because they all didn't start out as musicians.
+    The Migos grew up with no fathers, and no guidance in a very dangerous city. Whatever you hear them rap about they really lived that life;
+    they carried the guns, sold the yay, and disregarded the females. The Migos have a heart of a hustler, anything that they couldn't have before
+    now they have. You see it in the ridiculous jewelry they wear, and the foreign cars they drive. Once again, I was offered this job by Quavo
+    personally and all the sections in the website were approved by Coach K, QC Manager. Enjoy.
+     </p>
+</section>
+
+<!-- patagucci -->
+<section class="w3-container w3-center">
+  <h2 class="w3-wide">whats patagucci</h2>
+</section>
+
+<!-- a quote -->
+<div class="w3-panel w3-leftbar w3-light-grey">
+  <p class="w3-xlarge w3-serif"
+  <i>&nbsp; "If it aint patagucci I didn't wear it"</i></p>
+  <p>&nbsp; ~Quavo</p>
+</div>
+
+<!-- season -->
+<div class="w3-container w3-teal" id="patagucci">
+  <h1>Fall 2018 Preview</h1>
+</div>
+
+<!-- store -->
+<div class="w3-container w3-blue">
+Official patagucci drip szn sweatshirt
+</div>
+<div class="w3-cell-row">
+
+  <div class="w3-container w3-cell">
+    <img src="sweatshirt_.jpg" class="Sweatshirt" class="w3-image">
+  </div>
+  <div class="w3-container w3-cell w3-cell-middle">
+    <p>"Man, whenever I wear this I feel like satan"</p>
+    <p><i>Quavo</i></p>
+  </div>
+</div>
+
+
+<!-- meet the migos -->
+
+<div class="w3-cell-row">
+
+  <div class="w3-container w3-cell">
+    <p>
+
+<!-- the contact section -->
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+  <img src="tree_bkgd.jpg" alt="Trees" style="width:100%">
+  <h2 class="w3-wide w3-center">CONTACT</h2>
+  <p class="w3-opacity w3-center"><i>Fan? Drop a message!</i></p>
+  <div class="w3-row w3-padding-32">
+    <div class="w3-col m6 w3-large w3-margin-bottom">
+      <i class="fa fa-map-marker" style="width:30px"></i>Pinehurst, US<br>
+      <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+      <i class="fa fa-envelope" style="width:30px"></i> Email: jacktercheria1@gmail.com<br>
+    </div>
+    <div class="w3-col my">
+      <form class="contact-form" action="contactform.php" method="post">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input type="text" name="name" placeholder="Full name">
+            </div>
+            <div class="w3-half">
+              <input type="text" name="mail" placeholder="Email">
+            </div>
+          </div>
+          <input type="text" name="subject" placeholder="Subject">
+          <button class="w3-button w3-black w3-section w3-right" name="submit" type="submit">SEND</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// 25%matic Slideshow - change image every 3 seconds
+var myIndex =0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
